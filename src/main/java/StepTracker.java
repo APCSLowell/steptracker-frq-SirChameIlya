@@ -24,4 +24,5 @@ public class StepTracker
    return 0;
  }
   return totalSteps/days;
+ }
 } 
