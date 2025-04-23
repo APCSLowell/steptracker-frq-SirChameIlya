@@ -23,6 +23,6 @@ public class StepTracker
   if (days == 0){
    return 0;
  }
-  return totalSteps/days;
+  return (double)totalSteps/days;
  }
 } 
