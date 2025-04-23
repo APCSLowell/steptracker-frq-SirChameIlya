@@ -19,7 +19,7 @@ public class StepTracker
  public int activeDays(){
   return goodDays;
  }
- public int averageSteps(){
+ public double averageSteps(){
   if (days == 0){
    return 0;
  }
