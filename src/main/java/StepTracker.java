@@ -12,7 +12,7 @@ public class StepTracker
  public void addDailySteps(int steps){
   totalSteps += steps;
   days++;
-  if (totalSteps >= minActive){
+  if (steps >= minActive){
    goodDays++;
   }
  }
